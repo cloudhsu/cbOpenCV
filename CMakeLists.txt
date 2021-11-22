@@ -14,6 +14,7 @@ FATAL: In-source builds are not allowed.
 ")
 endif()
 
+SET(CMAKE_PREFIX_PATH /Users/cloudhsu/tools/QT-SDK/5.14.2/clang_64)
 
 include(cmake/OpenCVMinDepVersions.cmake)
 
